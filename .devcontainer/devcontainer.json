@@ -1,13 +1,13 @@
 {
-    "name": "Node.js & TypeScript",
-    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-18",
+    "name": "Python",
+    "image": "python:3.12-slim",
     "customizations": {
         "vscode": {
             "settings": {
                 "terminal.integrated.shell.linux": "/bin/bash"
             },
             "extensions": [
-                "asvetliakov.vscode-neovim"
+                "ms-python.python"
             ]
         }
     }
