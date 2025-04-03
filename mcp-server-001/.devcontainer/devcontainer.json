@@ -1,0 +1,21 @@
+{
+    "name": "Python MCP Server",
+    "image": "python:3.12-slim",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "asvetliakov.vscode-neovim",
+                "ms-python.debugpy",
+                "ms-python.python"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
+        "ghcr.io/devcontainers-extra/features/neovim-apt-get:1": {},
+        "ghcr.io/devcontainers/features/git:1": {}
+    }
+}
